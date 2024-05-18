@@ -1,0 +1,55 @@
+/*Background Color */
+* {
+    background-color: black;
+    font-family: Roboto;
+}
+
+/* Name at the top*/
+ .name::first-letter {
+    color: red;
+    font-size: 45px
+    
+ }
+
+ .name {
+    color: white;
+    font-size: 35px;
+ }
+/* nav links*/
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin-right: 200px;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: inline-block;
+}
+
+/*Job Disc and Greeting*/
+
+ .greeting{
+    margin-top: 200px;
+    margin-left: 100px;
+    color: white;
+ }
+
+ .highlight {
+    color: red;
+    font-weight: bold ;
+ }
