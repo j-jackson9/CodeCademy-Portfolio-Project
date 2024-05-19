@@ -63,6 +63,11 @@
     text-align: center;
     font-size: 30px;
  }
+
+ .greeting:hover {
+   font-size: 40px;
+   transition: font-size 0.5s ease;
+ }
  
 
  .highlight {
@@ -128,5 +133,5 @@
 
 i:hover {
    font-size: 300px;
-   transition: font-size 0.5s ease;
+   transition: font-size 0.5s ease, box-shadow 0.5s ease;
 }
