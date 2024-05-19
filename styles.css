@@ -89,8 +89,21 @@
  }
  
  /*Skills*/
-
+.skill-heading {
+   color: white;
+   text-align: center;
+   font-size: 100px;
+}
  
+.skill-heading::first-letter {
+   color: red;
+}
+
+/*.skill-heading:hover{
+   font-size: 150px;
+   transition: font-size 2s ease;
+}*/
+
  .skills {
    text-align: center; /* Center the inline-block elements within this container */
 }
@@ -111,4 +124,9 @@
 
 .skills ul li:last-child {
    margin-right: 0; /* Remove margin for the last list item */
+}
+
+i:hover {
+   font-size: 300px;
+   transition: font-size 0.5s ease;
 }
