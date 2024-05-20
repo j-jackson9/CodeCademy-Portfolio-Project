@@ -17,7 +17,7 @@
     text-align: left;
     margin-left: 100px;
  }
-/* nav links*/
+/* nav links section*/
 .navbar {
     position: fixed;
     top: 0;
@@ -25,7 +25,7 @@
     padding: 10px;
 }
 
-.navbar ul, ul {
+.navbar ul, ul{
     list-style-type: none;
     margin-right: 200px;
     padding: 0;
@@ -42,19 +42,20 @@
     padding: 8px 16px;
     display: inline-block;
 }
-  .home:hover {
-    box-shadow: 0 0 5px red;
+.home,.contact {
+   font-size: 20px;
+}
+.home:hover {
     text-shadow: 0 0 5px red;
     transition: .5s;
  }
 
  .contact:hover {
-    box-shadow: 0 0 5px red;
     text-shadow: 0 0 5px red;
     transition: .5s;
  }
 
-/*Job Disc and Greeting*/
+/*Job Disc and Greeting Section*/
 
  .greeting{
     margin-top: 200px;
@@ -92,8 +93,8 @@
     align-items: center;
     margin: 0 auto;
  }
- 
- /*Skills*/
+
+ /*Skill section*/
 .skill-heading {
    color: white;
    text-align: center;
@@ -103,11 +104,6 @@
 .skill-heading::first-letter {
    color: red;
 }
-
-/*.skill-heading:hover{
-   font-size: 150px;
-   transition: font-size 2s ease;
-}*/
 
  .skills {
    text-align: center; /* Center the inline-block elements within this container */
@@ -131,7 +127,50 @@
    margin-right: 0; /* Remove margin for the last list item */
 }
 
-i:hover {
-   font-size: 300px;
-   transition: font-size 0.5s ease, box-shadow 0.5s ease;
+ .fa-html5:hover {
+   font-size:300px;
+   transition:font-size 0.5s ease, text-shadow 0.5s ease;
+   text-shadow: 0 0 100px #e44d26;
+}
+
+.fa-css3-alt:hover {
+   font-size:300px;
+   transition:font-size 0.5s ease, text-shadow 0.5s ease;
+   text-shadow: 0 0 100px #264de4;
+}
+.fa-js:hover {
+   font-size:300px;
+   transition:font-size 0.5s ease, text-shadow 0.5s ease;
+   text-shadow: 0 0 70px #f0db45;
+}
+
+.fa-git:hover {
+   font-size:300px;
+   transition:font-size 0.5s ease, text-shadow 0.5s ease;
+   text-shadow: 0 0 100px red;
+}
+
+.fa-github:hover {
+   font-size:300px;
+   transition:font-size 0.5s ease, text-shadow 0.5s ease;
+   text-shadow: 0 0 70px #ffffff;
+}
+
+.fa-terminal:hover {
+   font-size:300px;
+   transition:font-size 0.5s ease, text-shadow 0.5s ease;
+   text-shadow: 0 0 70px #ffffff;
+}
+
+/*Project section*/
+
+.project-section {
+   color: white;
+   text-align: center;
+   font-size: 70px;
+   margin-top: 300px;
+}
+
+.project-heading::first-letter {
+   color:red;
 }

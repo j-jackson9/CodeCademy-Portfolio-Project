@@ -1,0 +1,77 @@
+/*Background Color */
+* {
+    background-color: black;
+    font-family: Roboto;
+}
+/* Name at the top*/
+.name::first-letter {
+    color: red;
+    font-size: 100x
+    
+ }
+
+ .name {
+    color: white;
+    font-size: 35px;
+    text-align: left;
+    margin-left: 100px;
+ }
+/* nav links section*/
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.navbar ul, ul{
+    list-style-type: none;
+    margin-right: 200px;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: inline-block;
+}
+.home,.contact {
+   font-size: 20px;
+}
+.home:hover {
+    text-shadow: 0 0 5px red;
+    transition: .5s;
+ }
+
+ .contact:hover {
+    text-shadow: 0 0 5px red;
+    transition: .5s;
+ }
+
+ /*Contact section*/
+.contact-info {
+    margin-top: 200px;
+    margin-left: 100px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.contact-heading {
+    font-size: 100px
+}
+
+.contact-heading::first-letter {
+    color:red;
+}
+
+.fa-envelope, .fa-phone {
+   font-size:100px;
+   text-shadow: 0 0 70px red;
+}
