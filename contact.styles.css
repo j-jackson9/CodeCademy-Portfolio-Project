@@ -18,7 +18,7 @@
  }
 /* nav links section*/
 .navbar {
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     padding: 10px;
@@ -76,14 +76,14 @@
     color:red;
 }
 
-.fa-envelope, .fa-phone, .fa-github {
+.fa-envelope, .fa-phone, .fa-github, .fa-linkedin {
    font-size:100px;
    text-shadow: 0 0 70px red;
    color:red;
 }
 
 .github {
-    color: white
+    color: white;
 }
 .github:hover {
     font-size: 40px;
@@ -94,6 +94,14 @@
 
 a {
     text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    font-size: 40px;
+    color: red;
+    text-shadow: 0 0 100px red;
+    transition: font-size 0.5s ease, color 0.5s ease, text-shadow 0.5s ease;
 }
 
 @media only screen and (max-width: 600px) {
