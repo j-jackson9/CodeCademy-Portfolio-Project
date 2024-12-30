@@ -1,7 +1,7 @@
 /*Background Color */
 * {
     background-color: black;
-    font-family: Roboto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* Name at the top*/
@@ -27,7 +27,7 @@
 
 .navbar ul, ul{
     list-style-type: none;
-    margin-right: 200px;
+    margin-right: 50px;
     padding: 0;
 }
 
@@ -59,7 +59,6 @@
 
  .greeting{
     margin-top: 200px;
-    margin-left: 100px;
     color: white;
     text-align: center;
     font-size: 30px;
@@ -89,6 +88,7 @@
 
  .skills {
    text-align: center; /* Center the inline-block elements within this container */
+   margin-bottom: 20px;
 }
 
 .skills ul {
@@ -110,42 +110,35 @@
 }
 
  .fa-html5:hover {
-   font-size:300px;
    transition:font-size 0.5s ease, text-shadow 0.5s ease;
    text-shadow: 0 0 100px #e44d26;
 }
 
 .fa-css3-alt:hover {
-   font-size:300px;
    transition:font-size 0.5s ease, text-shadow 0.5s ease;
    text-shadow: 0 0 100px #264de4;
 }
 .fa-js:hover {
-   font-size:300px;
    transition:font-size 0.5s ease, text-shadow 0.5s ease;
    text-shadow: 0 0 70px #f0db45;
 }
 
 .fa-git:hover {
-   font-size:300px;
    transition:font-size 0.5s ease, text-shadow 0.5s ease;
    text-shadow: 0 0 100px red;
 }
 
 .fa-github:hover {
-   font-size:300px;
    transition:font-size 0.5s ease, text-shadow 0.5s ease;
    text-shadow: 0 0 70px #ffffff;
 }
 
 .fa-terminal:hover {
-   font-size:300px;
    transition:font-size 0.5s ease, text-shadow 0.5s ease;
    text-shadow: 0 0 70px #ffffff;
 }
 
 .fa-react:hover {
-   font-size:300px;
    transition:font-size 0.5s ease, text-shadow 0.5s ease;
    text-shadow: 0 0 70px #00d8ff;
 }
@@ -153,21 +146,32 @@
 /*Project section*/
 
 .project-section {
-   color: white;
-   text-align: center;
-   font-size: 70px;
-   margin-top: 300px;
+   display: flex;
+   border-radius: 30px;
+   box-shadow: 0 0 20px red;
+   width: 1000px;
+   height: 500px;
+   justify-content: center; 
+   align-items: center; 
+   margin: auto;
 }
 
-.project-heading::first-letter {
-   color:red;
-}
-
-.project-link {
-   text-decoration: none;
+.fa-square-check {
    color: red;
+   font-size: 300px;
+   margin-right: 100px
 }
 
+.to-do, a {
+   font-size: 100px;
+   color: red;
+   text-decoration: none;
+}
+
+.to-do, a:hover {
+  font-size: 115px;
+  transition: .5s;
+}
 /* Css for small screens*/
 @media only screen and (max-width: 600px) {
       .name {
