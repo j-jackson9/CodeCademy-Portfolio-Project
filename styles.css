@@ -92,7 +92,8 @@ ul {
 
  .skills {
    text-align: center; /* Center the inline-block elements within this container */
-   margin-bottom: 20px;
+   margin-bottom: 500px;
+
 }
 
 .skills ul {
@@ -229,6 +230,9 @@ header::first-letter {
       .container {
           width: 300px;
           height: 40vh;
+      }
+      .skills {
+         margin-bottom: 250px;
       }
       .skill-heading, header {
           font-size: 40px;
